@@ -1,0 +1,28 @@
+body {
+    font-size: 16px;
+}
+
+#gameGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    border: 1px solid green;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: brown;
+}
+
+.apple {
+    background-color: red;
+}
+
+#controls {
+    margin-top: 25px;
+}
